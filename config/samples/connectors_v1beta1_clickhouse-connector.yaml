@@ -1,0 +1,12 @@
+apiVersion: connectors.magnit.tech/v1beta1
+kind: Clickhouse-connector
+metadata:
+  labels:
+    app.kubernetes.io/name: clickhouse-connector
+    app.kubernetes.io/instance: clickhouse-connector-sample
+    app.kubernetes.io/part-of: ppo-test
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: ppo-test
+  name: clickhouse-connector-sample
+spec:
+  # TODO(user): Add fields here

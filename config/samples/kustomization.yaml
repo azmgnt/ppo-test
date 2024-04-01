@@ -1,0 +1,5 @@
+## Append samples of your project ##
+resources:
+- connectors_v1beta1_clickhouse-connector.yaml
+- connectors_v1beta1_clickhouse.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
